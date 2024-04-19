@@ -1,0 +1,63 @@
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(221, 210, 210);
+}
+.theWholeGrid {
+  display: flex;
+  flex-direction: row;
+  border-color: red;
+}
+
+.grid {
+  width: 700px;
+  height: 600px;
+  border: solid black dotted;
+  display: flex;
+  flex-direction: column;
+}
+.buttons {
+  border-radius: 8px;
+  margin-left: 50px;
+  width: 200px;
+  background-color: bisque;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+  gap: 50px;
+  height: 300px;
+}
+.row-class {
+  width: 100%;
+  flex: 1;
+  display: flex;
+}
+.box {
+  flex: 1;
+  background-color: rgb(249, 246, 246);
+  border: 0.5px solid rgb(219, 236, 146);
+}
+
+.changeGridButton {
+  height: 40px;
+  background-color: rgb(96, 186, 40);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  width: 120px;
+}
+.changeGridButton:hover {
+  opacity: 0.8;
+  box-shadow: 0 0 20px rgba(0, 0, 0);
+}
+
+.title {
+  color: green;
+  margin-bottom: 40px;
+  font-size: 45px;
+  box-shadow: 0 0 20px green;
+  margin-right: 19%;
+}
